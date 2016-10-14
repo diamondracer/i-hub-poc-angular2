@@ -61,13 +61,7 @@ export class CloudIntegrationsComponent implements OnInit{
     this.hideChildModal();
   }
 
-  setStatusStyles()
-  {
-     let styles = {
-      'color':  'red'
-     };
-     return styles;
-  }
+ 
   
 }
 

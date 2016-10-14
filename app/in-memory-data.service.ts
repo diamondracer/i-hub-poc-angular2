@@ -31,7 +31,8 @@ export class InMemoryDataService implements InMemoryDbService {
  {id: 26	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Banks'	,	 fileName: 'Stuff.zip'	,	 status: 'Success'}	,
  {id: 27	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Banks'	,	 fileName: 'Stuff.zip'	,	 status: 'Error'}	,
  {id: 28	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Banks'	,	 fileName: 'Stuff.zip'	,	 status: 'Error'}	,
- {id: 29	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Banks'	,	 fileName: 'Stuff.zip'	,	 status: 'Error'}	,
+ {id: 29	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Banks'	,	 fileName: 'Stuff.zip'	,	 status: 'Error'}];	
+ /*
  {id: 30	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Journals'	,	 fileName: 'Stuff.zip'	,	 status: 'Error'}	,
  {id: 31	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Journals'	,	 fileName: 'Stuff.zip'	,	 status: 'Error'}	,
  {id: 32	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Journals'	,	 fileName: 'journalsmfh2.zip'	,	 status: 'Error'}	,
@@ -107,7 +108,7 @@ export class InMemoryDataService implements InMemoryDbService {
  {id: 102	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Journals'	,	 fileName: 'journalsmfh2.zip'	,	 status: 'Success'}	,
  {id: 103	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Journals'	,	 fileName: 'journalsmfh2.zip'	,	 status: 'Success'}	,
  {id: 104	,	 platform: 'ERP'	,	 server: 'https://ecludev-test.fs.us2.oraclecloud.com'	,	 integrationType: 'FBDI'	,	 integrationName: 'Import Journals'	,	 fileName: 'journalsmfh2.zip'	,	 status: 'Success'}]; 
-
+*/
     
     return {ents};
   }

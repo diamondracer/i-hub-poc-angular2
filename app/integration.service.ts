@@ -39,18 +39,8 @@ export class IntegrationService {
     .catch(this.handleError);
 }
 
- run_fake_request(Integration: IntegrationEntity): Promise<IntegrationEntity> {
-   
-    
-    return new Promise<IntegrationEntity[]>(resolve =>
-    setTimeout(resolve, 2000)) // delay 2 seconds
-    .then(() => Integration);
-
-}
-
- delay(ms: number) {
-   return new Promise(resolve => setTimeout(resolve, ms));
-}
+ 
+ 
 
 
 
